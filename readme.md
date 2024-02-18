@@ -30,14 +30,16 @@ Step 4: open mongo-express from browser
 
     http://localhost:8081
 
-Step 5: create `user-account` _db_ and `users` _collection_ in mongo-express
+Step 5: If prompted by the browser to sign in enter `admin` as the username and `pass` as the password
 
-Step 6: Start your nodejs application locally - go to `app` directory of project
+Step 6: create `my-db` _db_ and `users` _collection_ in mongo-express
+
+Step 7: Start your nodejs application locally - go to `app` directory of project
 
     npm install
     node server.js
 
-Step 7: Access you nodejs application UI from browser
+Step 8: Access you nodejs application UI from browser
 
     http://localhost:3000
 
